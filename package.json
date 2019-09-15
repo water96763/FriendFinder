@@ -1,18 +1,24 @@
 {
   "name": "friendfinder",
   "version": "1.0.0",
-  "description": "",
+  "description": "FriendFinder app  This is an assignment which uses Heroku, Express, Node and separates files into routes, data, and public files for the first time.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/water96763/FriendFinder.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/water96763/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/water96763/FriendFinder#readme",
   "dependencies": {
-    "core-util-is": "^1.0.2",
     "express": "^4.17.1",
-    "path": "^0.12.7",
-    "webpack-dev-server": "^3.8.0"
+    "path": "^0.12.7"
   }
 }
