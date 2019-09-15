@@ -12,3 +12,24 @@ app.get("*", function(req, res) {
 
 
 };
+
+
+
+// function handleRequest(req, res) {
+//   var path = req.url;
+// switch (path) {
+//   case "/survey":
+//     return renderHTML(path + ".html", res);
+//     default:
+//       return renderHTML("/home.html",res);
+// }
+
+// function renderHTML(filePath, res) {
+//   return fs.readFile(__dirname + filePath, function(err, data) {
+//     if (err) throw err;
+//     res.writeHead(200, { "Content-Type": "text/html" });
+//     res.end(data);
+//   });
+// };
+// }
+
